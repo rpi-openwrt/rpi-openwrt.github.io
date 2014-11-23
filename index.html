@@ -4,12 +4,21 @@
 <title>RPI-OpenWRT Package Repository</title>
 </head>
 <body>
-<h1>RPI-OpenWRT Package Repository</h1>
+<h1><u>RPI-OpenWRT Package Repository</u></h1>
 <p>Build date: 23.11.2014</p>
 
 <p><a href="bin">[bin]</a></p>
 
-<h2><u>Instruction<u></h2>
+<h2><u>Instructions<u></h2>
 <p>Set your /etc/opkg.conf accordingly:</p>
-
+<pre>
+</pre>
+<p>Some packages don't work very well without using image from this site, as ext4 image has been generated in a different way in stock OpenWrt RPI image. For example it doesn't allow resizing.<p>
+<h2><u>Changes in rpi-openwrt's image</u></h2>
+<ul>
+<li><a href="https://github.com/rpi-openwrt/patches">Patches</a> against base system</li>
+<li>dnsmasq and firewall are not included (can be installed as modules)</li>
+<li>nano is installed</li>
+<li>rpi-openwrt packages added to package repositories list</li>
+</ul>
 </body></html>
