@@ -1,0 +1,1020 @@
+Package: autoconf
+Version: 2.68-1
+Depends: libc, gcc, perl, m4, perlbase-essential, perlbase-file, perlbase-class, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-xsloader, perlbase-fcntl, perlbase-config, perlbase-posix, perlbase-autoloader, perlbase-tie, perlbase-cwd, perlbase-getopt, perlbase-errno, perlbase-dynaloader, perlbase-data, perlbase-bytes, perlbase-text
+Source: feeds/rpi/devel/autoconf
+Section: rpi-devel
+Architecture: brcm2708
+Installed-Size: 512317
+Filename: autoconf_2.68-1_brcm2708.ipk
+Size: 513348
+MD5Sum: 6ba14633c80fc660ed2cee37f353e846
+SHA256sum: 95afbd1a551f907fc7330a88794bceeb0b6c0cc0e7daf5b72164acab3d25f904
+Description:  Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. 
+ These scripts can adapt the packages to many kinds of UNIX-like systems without manual user intervention. 
+ Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, 
+ in the form of M4 macro calls.
+
+Package: automake
+Version: 1.11.3-1
+Depends: libc, autoconf
+Source: feeds/rpi/devel/automake
+Section: rpi-devel
+Architecture: brcm2708
+Installed-Size: 980217
+Filename: automake_1.11.3-1_brcm2708.ipk
+Size: 981044
+MD5Sum: 9fd7c3b6afb39e4e5a2191f3bcdcc943
+SHA256sum: 5bf99121179214f082019d1bc05676a447ea1d59434c721480c847c2ab32899b
+Description:  Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. 
+ Automake requires the use of Autoconf.
+
+Package: bison
+Version: 3.0-1
+Depends: libc
+Source: feeds/rpi/devel/bison
+Section: rpi-devel
+Architecture: brcm2708
+Installed-Size: 261485
+Filename: bison_3.0-1_brcm2708.ipk
+Size: 262177
+MD5Sum: 1ee745230c6d2b0b46a4ea27b1ab1626
+SHA256sum: 55092b015eaa12226da9708a528ccfec8f118c7832bd3e26b801224539c3ac34
+Description:  Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR 
+ or generalized LR (GLR) parser employing LALR(1) parser tables.
+
+Package: cairo
+Version: 1.14.0-1
+Depends: libc, fontconfig, libpng, libexpat, libpthread, librt, libxcb-render, libxcb-shm, libxcb, pixman, libjpeg, glib2, liblzo, rpi-userland
+Source: feeds/rpi/libs/cairo
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 445684
+Filename: cairo_1.14.0-1_brcm2708.ipk
+Size: 445198
+MD5Sum: 1063370acc695583474d871166f9a22c
+SHA256sum: f48a75fd6234d8007dbc82ec5a8881f09748781978c9ac3cb6303d89198adc9a
+Description:  Cairo is a 2D graphics library. The cairo API provides operations similar
+ to the drawing operators of PostScript and PDF. Operations in cairo
+ include stroking and filling cubic Bézier splines, transforming and
+ compositing translucent images, and antialiased text rendering. All
+ drawing operations can be transformed by any affine transformation
+ (scale, rotation, shear, etc.).
+
+Package: dialog
+Version: 1.2-20140112-1
+Depends: libc, libncurses
+Source: feeds/rpi/util/dialog
+Section: utils
+Architecture: brcm2708
+Installed-Size: 73613
+Filename: dialog_1.2-20140112-1_brcm2708.ipk
+Size: 74257
+MD5Sum: 054abdca87231a1c7540e0c5fba3b6a5
+SHA256sum: eda5ad08f3628c826eb0a75eb440b86a0db25a061bdb99e663ae53106199ab29
+Description:  A script-interpreter which provides a set of curses widgets.
+
+Package: fontconfig
+Version: 2.11.0-1
+Depends: libc, libexpat, libfreetype, libpthread
+Source: feeds/rpi/util/fontconfig
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 108129
+Filename: fontconfig_2.11.0-1_brcm2708.ipk
+Size: 108291
+MD5Sum: bdcb574227c339f5d0cf60db5f619928
+SHA256sum: 1837ec6497948edc5218c415b344aaf091279f29a5c27a1e4c71f916e51d801d
+Description:  Fontconfig is a library for configuring and customizing font access.
+
+Package: harfbuzz
+Version: 0.9.25-1
+Depends: libc, cairo, libfreetype, libstdcpp
+Source: feeds/rpi/util/harfbuzz
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 131489
+Filename: harfbuzz_0.9.25-1_brcm2708.ipk
+Size: 131782
+MD5Sum: 5b98d1f4afd3eab7f5fe2b94c51720d8
+SHA256sum: 9d78c07003029a7b2858ad9e1868e7c6727e3b6d0f41130051a7caadfc18ed28
+Description:  HarfBuzz is an OpenType text shaping engine.
+
+Package: kmod-uinput
+Version: 3.14.18+3.14.18-brcm2708-1
+Depends: kernel (=3.14.18-1-c3f2ee06667bd636f6d3ad3130ed0ff3)
+Source: feeds/rpi/drivers/uinput
+Section: kernel
+Architecture: brcm2708
+Installed-Size: 4722
+Filename: kmod-uinput_3.14.18+3.14.18-brcm2708-1_brcm2708.ipk
+Size: 5483
+MD5Sum: 6051491c0688c056a7bd70437d3957d4
+SHA256sum: 649b10403cb3cc6148d2e90502b1367e7066725e3ce3a7b9bfb1e36f58a0335e
+Description:  Adds support for user level drivers for input subsystem
+ accessible under char device 10:223 - /dev/input/uinput.
+
+Package: libX11
+Version: 1.6.2-1
+Depends: libc, libXdmcp, libXau, libxcb
+Source: feeds/rpi/libs/libX11
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 869750
+Filename: libX11_1.6.2-1_brcm2708.ipk
+Size: 863029
+MD5Sum: d4a5ad4b6a968232fe4efc8bbc3df5ad
+SHA256sum: 553899f927ee766008be78da59df8e33f1e5a511ac047b6e19d904c2f9c35bd6
+Description:  This package provides a client interface to the X Window System, otherwise known as 'Xlib'.
+ It provides a complete API for the basic functions of the window system.
+
+Package: libXau
+Version: 1.0.8-1
+Depends: libc
+Source: feeds/rpi/libs/libXau
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 3130
+Filename: libXau_1.0.8-1_brcm2708.ipk
+Size: 3895
+MD5Sum: 846666f1d3ee2a0428e5d856848f819c
+SHA256sum: 801974fb7505daace18dd5b638717c7a58bb529e07b79d088318476a9f806cea
+Description:  This package provides the main interface to the X11 authorisation handling,
+ which controls authorisation for X connections, both client-side and server-side.
+
+Package: libXcursor
+Version: 1.1.14-1
+Depends: libc, libXrender, libXfixes, libX11
+Source: feeds/rpi/libs/libXcursor
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 13834
+Filename: libXcursor_1.1.14-1_brcm2708.ipk
+Size: 14497
+MD5Sum: 41907f7a27db25b321bcac97e2e31323
+SHA256sum: 19c09e7c387dd8d05cd97f59879a0c464644ec5b3ff3c4425bb7f5c32c670c60
+Description:  X cursor management library
+
+Package: libXdmcp
+Version: 1.1.1-1
+Depends: libc
+Source: feeds/rpi/libs/libXdmcp
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 6170
+Filename: libXdmcp_1.1.1-1_brcm2708.ipk
+Size: 6944
+MD5Sum: de13e126d83755cc5e26f22b852ec1c3
+SHA256sum: d69262d1e2435a4111aca6393e073471bbcf664e636667d54db1ba4d85db2e08
+Description:  The libXdmcp package contains a library implementing the X Display
+ Manager Control Protocol. This is useful for allowing clients to
+ interact with the X Display Manager.
+
+Package: libXfixes
+Version: 5.0-1
+Depends: libc, libX11
+Source: feeds/rpi/libs/libXfixes
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 5104
+Filename: libXfixes_5.0-1_brcm2708.ipk
+Size: 5808
+MD5Sum: 85953e771e2b698a401ab9b613934b98
+SHA256sum: 7e6c2c7817ae7f87dd54dcd6a9ea1677a34c6b01d37d740f0055ea074453dfe9
+Description:  X11 miscellaneous 'fixes' extension library
+
+Package: libXrender
+Version: 0.9.8-1
+Depends: libc, libX11
+Source: feeds/rpi/libs/libXrender
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 11963
+Filename: libXrender_0.9.8-1_brcm2708.ipk
+Size: 12850
+MD5Sum: 07d9873c778ee1d6d641196bad747a94
+SHA256sum: af81d5c612916e81f89d8770aea0f66511ef74310adeb7ebe551b77b19f8f2de
+Description:  The X Rendering Extension (Render) introduces digital image
+ composition as the foundation of a new rendering model within
+ the X Window System. Rendering geometric figures is accomplished
+ by client-side tessellation into either triangles or trapezoids.
+ Text is drawn by loading glyphs into the server and rendering
+ sets of them. The Xrender library exposes this extension to X clients.
+
+Package: libbullet
+Version: 2.82-1
+Depends: libc, libstdcpp
+Source: feeds/rpi/libs/libbullet
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1041661
+Filename: libbullet_2.82-1_brcm2708.ipk
+Size: 1039392
+MD5Sum: 339fa78ca72034082bc5bc383e2aa2f2
+SHA256sum: da66050183dbed5b1fd76bde1bea88dfa0af820ca1c59023ded3c41897305320
+Description:  Bullet 3D Realy-Time Multiphysics Library provides state of the art collision
+ detection, soft body and rigid body dynamics.
+
+Package: libevdev
+Version: 20140422-d55056c468360cbe2ecbe90fde60ba176c5429ce
+Depends: libc
+Source: feeds/rpi/libs/libevdev
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 63800
+Filename: libevdev_20140422-d55056c468360cbe2ecbe90fde60ba176c5429ce_brcm2708.ipk
+Size: 62163
+MD5Sum: 23a53ab39feaa411344be6d937e0f9d0
+SHA256sum: 942e9daf701fe82475bbe580e5cbe35245703c393ad84b7cafeead0e024964bd
+Description:  libevdev is a wrapper library for evdev devices. it moves the common tasks
+ when dealing with evdev devices into a library and provides a library interface
+ to the callers, thus avoiding erroneous ioctls, etc.
+ The eventual goal is that libevdev wraps all ioctls available to evdev devices,
+ thus making direct access unnecessary.
+
+Package: libinput
+Version: 20141123-bded6ac1d1f4aa93a5ecd8d681730734392aae8c
+Depends: libc, libevdev, libmtdev, librt, udev
+Source: feeds/rpi/libs/libinput
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 26160
+Filename: libinput_20141123-bded6ac1d1f4aa93a5ecd8d681730734392aae8c_brcm2708.ipk
+Size: 27005
+MD5Sum: 146e1b60b99c7c608cceff27a1232087
+SHA256sum: 9d6e4878a2362427e49de9712d99d0f204f1065584dc41a19c4e3779201bbb7c
+Description:  This library does processing on input device events while providing an API
+ to the user used for delegating more useful input events.
+ Input event processing includes scaling touch coordinates, generating
+ pointer events from touchpads, pointer acceleration, etc.
+ It is based on the input code from the weston Wayland reference compositor.
+
+Package: libmpc
+Version: 1.0.1
+Depends: libc, libgmp, mpfr
+Source: feeds/rpi/libs/libmpc
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 30556
+Filename: libmpc_1.0.1_brcm2708.ipk
+Size: 31165
+MD5Sum: 617077c2b1580c79c7dbe51ea049a48d
+SHA256sum: a9422d46ced449f18ed24a92c1b433decbadbb4a9f9b80457a302c8041759596
+Description:  Library for the arithmetic of complex numbers with arbitrarily high precision
+
+Package: libmtdev
+Version: 1.1.4-1
+Depends: libc
+Source: feeds/rpi/libs/libmtdev
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 7166
+Filename: libmtdev_1.1.4-1_brcm2708.ipk
+Size: 7862
+MD5Sum: 841a88851ed31f70ae121fc86f578952
+SHA256sum: 384b798fb70376fb52d08b1651d02838cf33ad921ef8387bee951922b9981285
+Description:  mtdev Library
+
+Package: libunwind
+Version: 1.1-1
+Depends: libc, liblzma
+Source: feeds/rpi/libs/libunwind
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 45769
+Filename: libunwind_1.1-1_brcm2708.ipk
+Size: 46581
+MD5Sum: ab6c8e9af4f0a6ff4f346cc1aedd899c
+SHA256sum: 75445908e20453d4c28c4dc0964e31e95021813939691ec10136e7a5bc144844
+Description:  The primary goal of this project is to define a portable and efficient C programming interface (API) to determine the call-chain of a program.
+ The API additionally provides the means to manipulate the preserved (callee-saved) state of each call-frame and to resume execution at any point in 
+ the call-chain (non-local goto). The API supports both local (same-process) and remote (across-process) operation. As such, the API is useful in a 
+ number of applications.
+
+Package: libwayland
+Version: 20141123-59f255d66e4dad89f633deec535482faa8bd8561
+Depends: libc, libffi, libexpat, libpthread, librt
+Source: feeds/rpi/libs/libwayland
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 46116
+Filename: libwayland_20141123-59f255d66e4dad89f633deec535482faa8bd8561_brcm2708.ipk
+Size: 46580
+MD5Sum: 1e11e4384bfe96b673d15973a05d9f41
+SHA256sum: 1d7a68f2858cd75f893a219f2ffa4ce32521612f5772c1cbc53db85765bc5390
+Description:  Wayland is intended as a simpler replacement for X, easier to develop and maintain.
+ This package contains wayland libraries.
+
+Package: libxcb-composite
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1983
+Filename: libxcb-composite_1.9.3-1_brcm2708.ipk
+Size: 2665
+MD5Sum: 8b5e74d6f5ac51282021752bf0592169
+SHA256sum: c0714f87c543dc83d4607920b55c04af61de66b0aa79d69397267ca669d84b99
+Description:  libxcb-composite
+
+Package: libxcb-damage
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1769
+Filename: libxcb-damage_1.9.3-1_brcm2708.ipk
+Size: 2447
+MD5Sum: e7dcca5d78d1268c2e04d2893c35dcc9
+SHA256sum: f3149f9fc24cd01db790378390c487318b7bb05c12de43596cacbb7289706223
+Description:  libxcb-damage
+
+Package: libxcb-dpms
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1858
+Filename: libxcb-dpms_1.9.3-1_brcm2708.ipk
+Size: 2545
+MD5Sum: 076e469d4e74f51be4d7e65ee0159aaf
+SHA256sum: 9a59f74592193995e52948d8de78a417bcf52b992d2f30aeb3f7007ba81a64e6
+Description:  libxcb-dpms
+
+Package: libxcb-dri2
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 3215
+Filename: libxcb-dri2_1.9.3-1_brcm2708.ipk
+Size: 3862
+MD5Sum: bc1b29ee49dc3189ce40304a3c3f2a2c
+SHA256sum: ddb580324c688aecac31c828d0b22e44e01ec8a5594b4eca32cfabd555672dd2
+Description:  libxcb-dri2
+
+Package: libxcb-dri3
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2040
+Filename: libxcb-dri3_1.9.3-1_brcm2708.ipk
+Size: 2722
+MD5Sum: 04cd8639179989dc8a5101d057c5e4ac
+SHA256sum: e2327a46b84e746eb3183fb977245350f20981efe90e0bc0aa7bd5dddc598c83
+Description:  libxcb-dri3
+
+Package: libxcb-glx
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 13514
+Filename: libxcb-glx_1.9.3-1_brcm2708.ipk
+Size: 14071
+MD5Sum: 003bb522c4ccf9f4be4466135d9cdf2a
+SHA256sum: 7321968adeba10fb5b6bb5e981536061150bc5b068c3e572d8e8711dfd33063e
+Description:  libxcb-glx
+
+Package: libxcb-present
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2000
+Filename: libxcb-present_1.9.3-1_brcm2708.ipk
+Size: 2684
+MD5Sum: 7c1ca7a4482d43ea9be0ef591d04de28
+SHA256sum: a1d98ee68771c92f4ba0e07e5f4f05e9d0fb4c620c830caa83223e3658fd3e4f
+Description:  libxcb-present
+
+Package: libxcb-randr
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 8933
+Filename: libxcb-randr_1.9.3-1_brcm2708.ipk
+Size: 9611
+MD5Sum: a9c5199f951d132c48381123fe70580d
+SHA256sum: 31b11dc8adf7ea9df0b9f99ea677e106e342034552fa18d804d4e7e7fb1ede2e
+Description:  libxcb-randr
+
+Package: libxcb-record
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2928
+Filename: libxcb-record_1.9.3-1_brcm2708.ipk
+Size: 3578
+MD5Sum: e8cad1e5f36daca6482518558aaaee9d
+SHA256sum: 01982cc951b4ad723d59b6857b67e21ac42f710a6076aba2ff2d8267b4952321
+Description:  libxcb-record
+
+Package: libxcb-render
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 7130
+Filename: libxcb-render_1.9.3-1_brcm2708.ipk
+Size: 7831
+MD5Sum: 38acc5d8cf859d9bc4d57b72e8f96101
+SHA256sum: ed5f593695149d755559a51046bdbe30befc0df8df4a8ef274bae5ed1a5ca526
+Description:  libxcb-render
+
+Package: libxcb-res
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2730
+Filename: libxcb-res_1.9.3-1_brcm2708.ipk
+Size: 3373
+MD5Sum: 12adcfdd2a49d29b1c521b82aed941ec
+SHA256sum: f01b24a82114b839f921e8e521c104a88f728d58ee6b9443d540464da0860db6
+Description:  libxcb-res
+
+Package: libxcb-screensaver
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1964
+Filename: libxcb-screensaver_1.9.3-1_brcm2708.ipk
+Size: 2647
+MD5Sum: 7602252e3a6260fe6dc6eabe6d3bb6b1
+SHA256sum: bce28844872ef7b1949f1ec94d374284ddc16081ea4a76f8002cae8264380736
+Description:  libxcb-screensaver
+
+Package: libxcb-shape
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2558
+Filename: libxcb-shape_1.9.3-1_brcm2708.ipk
+Size: 3232
+MD5Sum: bbfae5078f1dfb9ce28850612acc7534
+SHA256sum: a8fcd57f5300d774fd43f82bb2babae6db1cae89fa07b7a730c525ead4ca1d44
+Description:  libxcb-shape
+
+Package: libxcb-shm
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2444
+Filename: libxcb-shm_1.9.3-1_brcm2708.ipk
+Size: 3119
+MD5Sum: 2c629bb7ce4e64738827b8353c5b9f3f
+SHA256sum: 445ffd9128d562f2505e8c123b8d9e815044806d328b9508fa9c16b96b030d3b
+Description:  libxcb-shm
+
+Package: libxcb-sync
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 4350
+Filename: libxcb-sync_1.9.3-1_brcm2708.ipk
+Size: 5007
+MD5Sum: 1cc4d9b54b920e7af02108b9424f6fe6
+SHA256sum: f0598a9cc6bd3f626bd46bfd87d5986b2621e303bfdfe193524547a229867738
+Description:  libxcb-sync
+
+Package: libxcb-xevie
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1816
+Filename: libxcb-xevie_1.9.3-1_brcm2708.ipk
+Size: 2498
+MD5Sum: 5c9cf8c2b25aabe3e781ff7a5c7e3fe6
+SHA256sum: 0182edf7742aafa77959c5a087d0e9130525a85add867fc4a9f8c707c5795825
+Description:  libxcb-xevie
+
+Package: libxcb-xf86dri
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2902
+Filename: libxcb-xf86dri_1.9.3-1_brcm2708.ipk
+Size: 3549
+MD5Sum: 42cf7972fde97c9c4ec7b30ed72a474a
+SHA256sum: 85025c1d7ab8e13bb640294190c563ea49da8d916e94b3a207ed5dcb4dcc5497
+Description:  libxcb-xf86dri
+
+Package: libxcb-xfixes
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 4816
+Filename: libxcb-xfixes_1.9.3-1_brcm2708.ipk
+Size: 5487
+MD5Sum: d9d264cb8f630b52c10a9e38c3a94df7
+SHA256sum: 74e49611ddb1f355372ef2b48663d9a89b532f9b6da2b3fe9de8489a49982907
+Description:  libxcb-xfixes
+
+Package: libxcb-xinerama
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1985
+Filename: libxcb-xinerama_1.9.3-1_brcm2708.ipk
+Size: 2666
+MD5Sum: 1ea3f75ca4ffc6b10f944e5f87497f5a
+SHA256sum: 632dc218e8d5c8d26d98060e78f0ef4917e55db7ed4256803e079c269a07e627
+Description:  libxcb-xinerama
+
+Package: libxcb-xprint
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 5573
+Filename: libxcb-xprint_1.9.3-1_brcm2708.ipk
+Size: 6241
+MD5Sum: f46e3f225b39aa0e0af846a93dcddda0
+SHA256sum: 65cd6d6dac30634ed5e87386736448e4c9108cd3ca0d87b1e6601b6d032eb4d0
+Description:  libxcb-xprint
+
+Package: libxcb-xtest
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 1742
+Filename: libxcb-xtest_1.9.3-1_brcm2708.ipk
+Size: 2413
+MD5Sum: 7e26051ed276f8992458df4e072ae366
+SHA256sum: cec19749716d30836b1a66697c0cffcc939a8895ca8aa18924dd47e6ba9bfc08
+Description:  libxcb-xtest
+
+Package: libxcb-xv
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 4795
+Filename: libxcb-xv_1.9.3-1_brcm2708.ipk
+Size: 5463
+MD5Sum: eb8c4ac4b8dc3f60ead7bb4649536830
+SHA256sum: e9cf67852d390ad9816135f7b2562e4ef8effab02ab3139446676ce25254806f
+Description:  libxcb-xv
+
+Package: libxcb-xvmc
+Version: 1.9.3-1
+Depends: libc, libxcb
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 2716
+Filename: libxcb-xvmc_1.9.3-1_brcm2708.ipk
+Size: 3356
+MD5Sum: 3d73ab9b861e87ee85e7266c77082100
+SHA256sum: a5eb099bd2faa3088b7e66c17916d8042cebefcc57de5f0c550884ab06c0f8a7
+Description:  libxcb-xvmc
+
+Package: libxcb
+Version: 1.9.3-1
+Depends: libc, libXau, libXdmcp
+Source: feeds/rpi/libs/libxcb
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 28417
+Filename: libxcb_1.9.3-1_brcm2708.ipk
+Size: 29170
+MD5Sum: 5d5018c368aa4348699abe7455cfce0c
+SHA256sum: 3f4affecf9ff86fda875643a62e15e6285bf0a2c5dbcb48aca403ea852ee8f9a
+Description:  libxcb provides an interface to the X Window System protocol, which
+ replaces the current Xlib interface.
+
+Package: libxkbcommon
+Version: 0.3.2-1
+Depends: libc
+Source: feeds/rpi/libs/libxkbcommon
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 91499
+Filename: libxkbcommon_0.3.2-1_brcm2708.ipk
+Size: 86972
+MD5Sum: bfdabce923d11a2bc8368d110d5bbdfe
+SHA256sum: 0e4ddc47024aa3784cf0444fa3276ea04763084bfe73b2bd7903185a11372890
+Description:  xkbcommon is a library to handle keyboard descriptions, including
+ loading them from disk, parsing them and handling their state.
+ It's mainly meant for client toolkits, window systems, and other
+ system applications; currently that includes Wayland, kmscon,
+ GTK+, Qt, Clutter, and more. Despite the name, it isn't actually
+ used by anything X11 (yet).
+
+Package: m4
+Version: 1.4.17-1
+Depends: libc
+Source: feeds/rpi/devel/m4
+Section: rpi-devel
+Architecture: brcm2708
+Installed-Size: 82267
+Filename: m4_1.4.17-1_brcm2708.ipk
+Size: 83103
+MD5Sum: b601c9ca0add8d7ad0f8bb8b452656fd
+SHA256sum: c7d1d89d3119fdc88d1644c9343356121c0d8e6f7fd61b583bd526b9d0b9dab3
+Description:  GNU M4 is an implementation of the traditional Unix macro processor. 
+ It is mostly SVR4 compatible although it has some extensions (for example, handling more 
+ than 9 positional parameters to macros). GNU M4 also has built-in functions for including files, 
+ running shell commands, doing arithmetic, etc.
+
+Package: mpfr
+Version: 3.1.2
+Depends: libc, libgmp
+Source: feeds/rpi/libs/mpfr
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 146955
+Filename: mpfr_3.1.2_brcm2708.ipk
+Size: 147257
+MD5Sum: 4a444ad87b8283d73788b9f139296770
+SHA256sum: ef089da12880d6bf2eea61f1c09ece9ed983e7486fd29504cf7c257860f9f937
+Description:  The MPFR library is a C library for multiple-precision floating-point
+ computations with correct rounding. MPFR has continuously been
+ supported by the INRIA.
+
+Package: opengalax2
+Version: 0.9-2
+Depends: libc, tslib, kmod-uinput
+Source: feeds/rpi/drivers/opengalax2
+Section: rpi-drivers
+Architecture: brcm2708
+Installed-Size: 6706
+Filename: opengalax2_0.9-2_brcm2708.ipk
+Size: 7684
+MD5Sum: b5a3ced64fe8e675ee97f22beab4854a
+SHA256sum: a49f5f5bae03bef62a8f9a5a0baccbd12eb01536df40cb46a487ba78d92dc740
+Description:  Opengalax2 is a Linux userland input device driver for touchscreen panels manufactured by
+ touchscreen vendors that are supported by tslib. Original OpenGalax touchscreen daemon 
+ supported serial devices manufactured by EETI: eGalax, eMpia, TouchKit, Touchmon, HanTouch,
+ D-WAV Scientific Co, eTurboTouch, Faytech, PanJit, 3M MicroTouch EX II, ITM, etc.
+ This driver supports USB versions of same devices through tslib. Calibration is done 
+ with tslib, user only needs to set desired display resolution.
+
+Package: opengalax
+Version: 0.4-1
+Depends: libc
+Source: feeds/rpi/drivers/opengalax
+Section: rpi-drivers
+Architecture: brcm2708
+Installed-Size: 9856
+Filename: opengalax_0.4-1_brcm2708.ipk
+Size: 10722
+MD5Sum: e1d3877c72daadb75a1faa5b484067b7
+SHA256sum: 34890ebc844be2d35d17a73010028b5c9ab7bc97f82220dbb323864e184572f1
+Description:  Opengalax is a Linux userland input device driver for touchscreen panels manufactured by
+ EETI: eGalax, eMPIA, TouchKit, Touchmon, HanTouch, D-WAV Scientific Co, eTurboTouch, Faytech,
+ PanJit, 3M MicroTouch EX II, ITM, etc.
+ At the moment only PS/2 (via serio_raw) interface is supported.
+
+Package: pixman
+Version: 0.32.4-1
+Depends: libc, libpthread
+Source: feeds/rpi/libs/pixman
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 206062
+Filename: pixman_0.32.4-1_brcm2708.ipk
+Size: 205726
+MD5Sum: 95f58a164bba2af96834538eddb112ac
+SHA256sum: 932e5f959ef4e77fabe70642722528ee714664729f23eeec7828aefd01f811d8
+Description:  Pixman is a low-level software library for pixel manipulation,
+ providing features such as image compositing and trapezoid
+ rasterization.
+
+Package: pkgconfig
+Version: 0.28-1
+Depends: libc, glib2
+Source: feeds/rpi/devel/pkgconfig
+Section: rpi-devel
+Architecture: brcm2708
+Installed-Size: 14404
+Filename: pkgconfig_0.28-1_brcm2708.ipk
+Size: 15024
+MD5Sum: 27ac625985aae918bc95c98c6748c768
+SHA256sum: 8eb24b3483586cc3fc3b037e010d9f134a3d1bee7c53d6ebf6a795040e37a69b
+Description:  pkg-config is a helper tool used when compiling applications and libraries.
+ It helps you insert the correct compiler options on the command line so an application
+ can use gcc -o test test.cpkg-config --libs --cflags glib-2.0 for instance, rather
+ than hard-coding values on where to find glib (or other libraries). It is language-agnostic,
+ so it can be used for defining the location of documentation tools, for instance.
+
+Package: rpi-extendfs
+Version: 0.2-1
+Depends: libc, fdisk, resize2fs, dialog
+Source: feeds/rpi/util/rpi-extendfs
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 2032
+Filename: rpi-extendfs_0.2-1_brcm2708.ipk
+Size: 2918
+MD5Sum: 91b9a03dc771ccba7e537ae57f7f0e62
+SHA256sum: 5c07e2bdcbdbe3381cf693069a9c49fc67f6e808b80b53d75f4159fe5a1346b4
+Description:  Menu-driven dialog using utility for extending size of root filesystem.
+ Similar to raspi-config from other distributions, but at the moment does
+ nothing more than resizing of root filesystem. Original project name was
+ rpi-config, which was supposed to be port of raspi-config for OpenWrt.
+ Instead of options from raspi-config, this only supports root fs extending. Currently.
+
+Package: rpi-helloaudio
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 14928
+Filename: rpi-helloaudio_20141122-1_brcm2708.ipk
+Size: 15568
+MD5Sum: 79c83bab1fd82022e2e74fdc47d1b079
+SHA256sum: 3215d752c553625f7c6a3f6eda3af1769685bfbc99c7bf4b83c7ced807b2eab1
+Description:  rpi-helloaudio demo
+
+Package: rpi-hellodispmanx
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 2311
+Filename: rpi-hellodispmanx_20141122-1_brcm2708.ipk
+Size: 2989
+MD5Sum: 6c3dcaaadda295e93dcc17ade52961eb
+SHA256sum: 90fcd1e491078b02591c57bb4f4cddcc626c3b8357f3feebb2da8e77019ee359
+Description:  rpi-hellodispmanx demo
+
+Package: rpi-helloencode
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 12422
+Filename: rpi-helloencode_20141122-1_brcm2708.ipk
+Size: 13100
+MD5Sum: 7aada6b12269239fe75e4cfb6cf635a5
+SHA256sum: 4f5fe281abedf6a2cd6b6fc5f7a26d89c189a723902516429cd677715a56a937
+Description:  rpi-helloencode demo
+
+Package: rpi-hellofont
+Version: 20141122-1
+Depends: libc, rpi-userland, libfreetype, zlib
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 14855
+Filename: rpi-hellofont_20141122-1_brcm2708.ipk
+Size: 15470
+MD5Sum: 1d86b9105460a7183baa9f25ab76a382
+SHA256sum: e40786c4466b395adfc35a5ddd5e2a4f451ff3526250e750b2f3e68f0a1f5956
+Description:  rpi-hellofont demo
+
+Package: rpi-hellojpeg
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 13228
+Filename: rpi-hellojpeg_20141122-1_brcm2708.ipk
+Size: 13842
+MD5Sum: a3cba8138583173361845d54796ade6d
+SHA256sum: 9dba20f42da58177b4ebbb05dfa054bc6a2956034b31a545de82016ef81d5079
+Description:  rpi-hellojpeg demo
+
+Package: rpi-helloteapot
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 121452
+Filename: rpi-helloteapot_20141122-1_brcm2708.ipk
+Size: 102282
+MD5Sum: 6970ae9128e55db4b0bda162be2eb7e3
+SHA256sum: bfa4e350309aecfd821d4d05eb6bdca5f081ead3600ee4901ae702fbfdedada7
+Description:  rpi-helloteapot demo
+
+Package: rpi-hellotiger
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 35954
+Filename: rpi-hellotiger_20141122-1_brcm2708.ipk
+Size: 36643
+MD5Sum: 7123e1eb24f52b8ab8ec156796916a13
+SHA256sum: 8854189ba268b1217971acd6eab45df062f230a81120420537fd7c09029d2bde
+Description:  rpi-hellotiger demo
+
+Package: rpi-hellotriangle2
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 5661
+Filename: rpi-hellotriangle2_20141122-1_brcm2708.ipk
+Size: 6335
+MD5Sum: 2b24abcf10bb01e8c6142b71e2306ab3
+SHA256sum: 51be1ec3cbb52ed47413f8e21ddfb7500f8ef329a6a807073579ab3a619bef89
+Description:  rpi-hellotriangle2 demo
+
+Package: rpi-hellotriangle
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 123507
+Filename: rpi-hellotriangle_20141122-1_brcm2708.ipk
+Size: 124351
+MD5Sum: 00342c6d677be3812193338e8b1e2e29
+SHA256sum: f7185edfa2c142c7fb23528cf287a7ca1cbcef66116224734876534acdf19bf5
+Description:  rpi-hellotriangle demo
+
+Package: rpi-hellovideo
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 30999202
+Filename: rpi-hellovideo_20141122-1_brcm2708.ipk
+Size: 31004881
+MD5Sum: 88940fad284715f2f410e6932f7047fc
+SHA256sum: ac65f0245531e2bcb912b1bc924a60b6cf2afbd3d7f9a5eae26d8410a3977206
+Description:  rpi-hellovideo demo
+
+Package: rpi-hellovideocube
+Version: 20141122-1
+Depends: libc, rpi-userland, rpi-hellovideo
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 14293
+Filename: rpi-hellovideocube_20141122-1_brcm2708.ipk
+Size: 14916
+MD5Sum: 42b3c492b155122372212b90d0a36f4b
+SHA256sum: 114ade62fe1ed0bcfa8380a1cbae3a4e3f5fe39e335c1bd9928a62c4db4a5859
+Description:  rpi-hellovideocube demo
+
+Package: rpi-helloworld
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 1192
+Filename: rpi-helloworld_20141122-1_brcm2708.ipk
+Size: 1867
+MD5Sum: 851381282a53152e04c84453c8dd49b8
+SHA256sum: 5208b624d23054ef2ee658013d14364f88bd6e9c1c816ea6c727faeca6e88123
+Description:  rpi-helloworld demo
+
+Package: rpi-raspicam
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 77628
+Filename: rpi-raspicam_20141122-1_brcm2708.ipk
+Size: 77688
+MD5Sum: 5d1b7c3833dd4549f064121c95c633a5
+SHA256sum: 34d5b035b3b345f0162c725fa578b2f8c2e6254b2c92d9d061c14e33df4d53f1
+Description:  raspicam
+
+Package: rpi-tvservice
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 19151
+Filename: rpi-tvservice_20141122-1_brcm2708.ipk
+Size: 19836
+MD5Sum: 0812737408756737a4b05d0eb54e4abb
+SHA256sum: 7920cb54527bb2f5610def4f819db7169a16301d1336362b3f5f7617dfc5b37c
+Description:  tvservice
+
+Package: rpi-update
+Version: 0.41-1
+Depends: libc, kmod-nls-iso8859-1, kmod-nls-cp437, kmod-fs-vfat, curl
+Source: feeds/rpi/util/rpi-update
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 1678
+Filename: rpi-update_0.41-1_brcm2708.ipk
+Size: 2464
+MD5Sum: 3992fe8bb0fe72671522295d157568a6
+SHA256sum: ae3ea66eaac563e98171cc5568cd54b98af7bb7db286efbcebe9f1f66edaa304
+Description:  An easier way to update the firmware of your Raspberry Pi.
+ OpenWrt port of rpi-update from https://github.com/Hexxeh/rpi-update.
+
+Package: rpi-userland
+Version: 20141122-1
+Depends: libc, libpthread, librt
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 533355
+Filename: rpi-userland_20141122-1_brcm2708.ipk
+Size: 532349
+MD5Sum: ba4437744a2443acf0ddb7f01442f753
+SHA256sum: 5f025c3d64e2d4e498e9154b3b69a4af4b51229e77d42367c04d2bb0ac0fdccc
+Description:  Raspberry PI userland libraries for interfaces EGL, mmal, GLESv2,
+ vcos, openmaxil, vchiq_arm, bcm_host, WCF and OpenVG
+
+Package: rpi-vcgencmd
+Version: 20141122-1
+Depends: libc, rpi-userland
+Source: feeds/rpi/libs/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 4364
+Filename: rpi-vcgencmd_20141122-1_brcm2708.ipk
+Size: 5005
+MD5Sum: a15e30865a45ccd7495ca75f41c2a816
+SHA256sum: b7608d74b0e910e733e1f8c55a20453880d76c6e25fcea8e21e593148a37535c
+Description:  vcgencmd
+
+Package: tslib
+Version: 1.1-2
+Depends: libc
+Source: feeds/rpi/libs/tslib
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 30788
+Filename: tslib_1.1-2_brcm2708.ipk
+Size: 31529
+MD5Sum: 77f61db412effd6b6016221049ee6e7b
+SHA256sum: 0d151bedc6e5dce815ec139f318d2f4c1d7f4ab1dcbd3c40067b62b1055cd252
+Description:  tslib is an abstraction layer for touchscreen panel events,
+ as well as a filter stack for the manipulation of those events.
+ Examples of implemented filters include jitter smoothing and the calibration transform.
+
+Package: weston
+Version: 20141123-b4e976ab56776f3bb21b18979fbb0a9ec04001b9
+Depends: libc, libwayland, libXcursor, cairo, libxcb, libxcb-composite, libxcb-shape, libxcb-xfixes, libxcb-render, libxcb-shm, libxkbcommon, udev, libmtdev, libjpeg, xkeyboard-config, libinput, rpi-userland
+Source: feeds/rpi/weston/weston
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 660339
+Filename: weston_20141123-b4e976ab56776f3bb21b18979fbb0a9ec04001b9_brcm2708.ipk
+Size: 649339
+MD5Sum: 8ee2fb05ec421878ea0f4da586e8a003
+SHA256sum: f32b57a41cf94b3a99e831522ce62a6ca563815800f4a3675556592a335ba920
+Description:  The Weston compositor is a minimal and fast compositor and is suitable for many embedded and mobile use cases.
+
+Package: xkeyboard-config
+Version: 2.10.1-1
+Depends: libc
+Source: feeds/rpi/util/xkeyboard-config
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 443625
+Filename: xkeyboard-config_2.10.1-1_brcm2708.ipk
+Size: 442562
+MD5Sum: 7025d2163a87669bf8ea90c4fb565eb5
+SHA256sum: 730a9a4e0774b3fa6b879ae95ae4da373ec037329880f6d91f3a031ee60562fb
+Description:  X Keyboard Configuration Database. The non-arch keyboard
+ configuration database for X Window. The goal is to provide
+ the consistent, well-structured, frequently released open
+ source of X keyboard configuration data for X Window System
+ implementations (free, open source and commercial).
+ The project is targeted to XKB-based systems.
+

@@ -1,0 +1,15 @@
+Package: luci2
+Version: 2014-07-06-ef48c52
+Depends: libc, rpcd, rpcd-mod-iwinfo, uhttpd, uhttpd-mod-ubus
+Source: feeds/luci2/luci2
+License: Apache-2.0
+Section: luci2
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 229904
+Filename: luci2_2014-07-06-ef48c52_brcm2708.ipk
+Size: 230722
+MD5Sum: 85ad49a0f7d4eda9d62ca98c963da529
+SHA256sum: 2928c455831a5a480777759775cfd4ee04d22879d1056f6fdb1acf1215020031
+Description:  Provides the LuCI2 web interface with standard functionality.
+
