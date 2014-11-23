@@ -1,4 +1,4 @@
 rpi-openwrt.github.io
 =====================
 
-Contains downloadable binary packages from rpi-packages repository and pre-compiled images as well.
+rpi-packages package repository for OpenWRT and generated image for Raspberry Pi.
