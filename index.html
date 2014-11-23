@@ -15,8 +15,26 @@ OpenWrt trunk base revision: <a href="https://dev.openwrt.org/log/?rev=43340">r4
 
 <h2><u>Instructions</u></h2>
 <p>Set your /etc/opkg.conf accordingly:</p>
-<pre style="background-color: #000; border: 1px dashed #bbb; color: #eee;">
-test
+<pre style="background-color: #000; border: 1px dashed #bbb; color: #eee; width: 65%;">
+dest root /
+dest ram /tmp
+lists_dir ext /var/opkg-lists
+option overlay_root /overlay
+
+src/gz rpi_base http://openwrt-rpi.github.io/bin/brcm2708/packages/base
+src/gz rpi_packages http://openwrt-rpi.github.io/bin/brcm2708/packages/packages
+src/gz rpi_luci http://openwrt-rpi.github.io/bin/brcm2708/packages/luci
+src/gz rpi_luci2 http://openwrt-rpi.github.io/bin/brcm2708/packages/luci2
+src/gz rpi_rpi http://openwrt-rpi.github.io/bin/brcm2708/packages/rpi
+
+src/gz chaos_calmer_base http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/base
+src/gz chaos_calmer_luci http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/luci
+src/gz chaos_calmer_packages http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/packages
+
+#src/gz chaos_calmer_luci2 http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/luci2
+#src/gz chaos_calmer_routing http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/routing
+#src/gz chaos_calmer_telephony http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/telephony
+#src/gz chaos_calmer_management http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/management
 </pre>
 <p>Some packages don't work very well without using image from this site, as ext4 image has been generated in a different way in stock OpenWrt RPI image. For example it doesn't allow resizing.<p>
 <h2><u>Changes in rpi-openwrt's image</u></h2>
