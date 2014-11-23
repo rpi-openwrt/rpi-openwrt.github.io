@@ -1,0 +1,995 @@
+Package: attr
+Version: 20140610-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm2708
+Installed-Size: 11364
+Filename: attr_20140610-1_brcm2708.ipk
+Size: 12093
+MD5Sum: 2338597ba64d7bd9cab28e9aa8e9cbc8
+SHA256sum: 7bd0c739ae70b2a7143994a98bb75c9da6b842029818e8f03cffa6f728e81e4e
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bzip2
+Version: 1.0.6-1
+Depends: libc, libbz2
+Source: feeds/packages/utils/bzip2
+License: BZIP2
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 12941
+Filename: bzip2_1.0.6-1_brcm2708.ipk
+Size: 13759
+MD5Sum: b0d135a2b53c3fa942f0fb9d6648dd35
+SHA256sum: 188f85083e1d994ddc1acd63148ef07eae7dec52cb6a63222e2770b3b93ffec0
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
+
+Package: dbus
+Version: 1.8.8-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 246947
+Filename: dbus_1.8.8-1_brcm2708.ipk
+Size: 247163
+MD5Sum: c4aab0a08d7ae5d7c25cd7555af372f1
+SHA256sum: 3faa9a3578b9b8f729e99b20af22278df1903001fd69ef2c0339dea10ff5aac5
+Description:  Simple interprocess messaging system (daemon)
+
+Package: diffutils
+Version: 3.3-1
+Depends: libc
+Source: feeds/packages/devel/diffutils
+License: GPL-3.0
+Section: devel
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm2708
+Installed-Size: 128538
+Filename: diffutils_3.3-1_brcm2708.ipk
+Size: 129183
+MD5Sum: 5a771e9d6cd971dd364337fadcc672ee
+SHA256sum: 2013cb7cbec476d5586d010964eb4f4e3aec91688e8ee8f054f441c55150712e
+Description:  The Diffutils package contains programs that show the differences between
+ files or directories.
+
+Package: gcc
+Version: 4.8.3-1
+Depends: libc, binutils, libstdcpp
+Source: feeds/packages/devel/gcc
+Section: devel
+Maintainer: Christian Beier <cb@shoutrlabs.com>
+Architecture: brcm2708
+Installed-Size: 20157239
+Filename: gcc_4.8.3-1_brcm2708.ipk
+Size: 20035559
+MD5Sum: 0be2d54a99a356d0028758dcdd5efcf2
+SHA256sum: 9b4bca183cfdd2a455fe3baacfae6142107ea89c5d034a479eba02c03bf45ba3
+Description:  build a native toolchain for compiling on target
+
+Package: glib2
+Version: 2.41.1-2
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 815350
+Filename: glib2_2.41.1-2_brcm2708.ipk
+Size: 811311
+MD5Sum: 57cd227c9762dd36d0c54c747aca5b59
+SHA256sum: cf091a6327e231a6d3b867e9e9d6a7d100cd2b35b60098e130ace50d0c14c07f
+Description:  The GLib library of C routines
+
+Package: kmod-cryptodev
+Version: 3.14.18+1.6-brcm2708-1
+Depends: kernel (=3.14.18-1-c3ba5bd53f1625eba4ca010d1ba1a795), kmod-crypto-core, kmod-crypto-authenc, kmod-crypto-hash
+Source: feeds/packages/utils/cryptodev-linux
+Section: kernel
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: brcm2708
+Installed-Size: 16202
+Filename: kmod-cryptodev_3.14.18+1.6-brcm2708-1_brcm2708.ipk
+Size: 16975
+MD5Sum: c46a687a6a117111a64876cc38c46ccb
+SHA256sum: b114e3794dc4ae003498b5944474e5077c97211af468d96fa692e55f4d8cf45f
+Description:  This is a driver for that allows to use the Linux kernel supported
+ hardware ciphers by user-space applications.
+
+Package: l7-protocols
+Version: 2009-05-28-2
+Depends: libc, iptables-mod-filter
+Source: feeds/packages/net/l7-protocols
+License: GPL-2.0
+Section: net
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: brcm2708
+Installed-Size: 46770
+Filename: l7-protocols_2009-05-28-2_brcm2708.ipk
+Size: 47320
+MD5Sum: 5f0a030fd97a9614597c5e101889d7d1
+SHA256sum: d99ba009c549176938a4f19e21e0790852341399ad8baf7d45abcc2dca1574f3
+Description:  l7-filter classifies packets based on patterns in application
+ layer data. This allows correct classification of P2P traffic that
+ uses unpredictable ports as well as standard protocols running on
+ non-standard ports.
+
+Package: libattr
+Version: 20140610-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm2708
+Installed-Size: 4616
+Filename: libattr_20140610-1_brcm2708.ipk
+Size: 5350
+MD5Sum: fe5d4452c7cc7f88b9de98a52e8eb799
+SHA256sum: c7cb0fb777ee342f10787328c4989e51fabc2241f44e3bf00c2b846aa907ba5b
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libbz2
+Version: 1.0.6-1
+Depends: libc
+Source: feeds/packages/utils/bzip2
+License: BZIP2
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 24699
+Filename: libbz2_1.0.6-1_brcm2708.ipk
+Size: 25277
+MD5Sum: 18c55bc242013b7c9912989fea505949
+SHA256sum: 8af3aacc6d602115f66c0511b91b452299f5f9c3ddf9f6810bf96f52e6650abd
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libdb47
+Version: 4.7.25.4.NC-3
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 446377
+Filename: libdb47_4.7.25.4.NC-3_brcm2708.ipk
+Size: 444229
+MD5Sum: 705c5f2bdb901132fac65225d7ecc119
+SHA256sum: 5174b0f0ba40b4b9693dcae7d3d2f8a6798235cb679067ba98a912d519b889ae
+Description:  Berkeley DB library (4.7).
+
+Package: libdbus
+Version: 1.8.8-1
+Depends: libc, librt
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 97147
+Filename: libdbus_1.8.8-1_brcm2708.ipk
+Size: 97713
+MD5Sum: d8665cd874dbe6b007e1b07d912700aa
+SHA256sum: 6f8233ef0f01aacd0eaf3f47cd7de7590807e19d96a66c44d4801ed14eb44860
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 44198
+Filename: libexpat_2.1.0-3_brcm2708.ipk
+Size: 44923
+MD5Sum: 0038eeb60c29deaf0a621d30772d0139
+SHA256sum: d7547e7e09d64e41836b3fe63a1be3a0e31b4d0726b6e62800d18e5c56a32ea5
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 4876
+Filename: libffi_3.0.13-1_brcm2708.ipk
+Size: 5863
+MD5Sum: 4852c59f7c84b969fae23c5e219443f2
+SHA256sum: 82f3213ceba1d5b842815f719f41113843679df8d023ca0a1f6100f06741bd48
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libfreetype
+Version: 2.5.3-1
+Depends: libc, zlib, libbz2
+Source: feeds/packages/libs/freetype
+License: FTL GPL-2.0 MIT ZLIB
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 235997
+Filename: libfreetype_2.5.3-1_brcm2708.ipk
+Size: 236424
+MD5Sum: 24c9915a4c4204ded471a4250546fd86
+SHA256sum: 7aae6c3b1a544f38441a6c484ca0a384cc19908c6a46b0ff945432d620ce75a2
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 263197
+Filename: libgcrypt_1.6.1-1_brcm2708.ipk
+Size: 263078
+MD5Sum: d756caa69549307298f0b720d146b7e4
+SHA256sum: 39393b324df05aa0ac66b81e3f8f89666a2e05df0e1f9c8db3b3191eb8a690b2
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 5195
+Filename: libgpg-error_1.12-1_brcm2708.ipk
+Size: 6023
+MD5Sum: aef5a0f88ed30b6ce2c47a757fe22815
+SHA256sum: a16d5a8dbfa1a91b2ad869146aa4362899bd7ab9302549e58839c40acd7ab203
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 93670
+Filename: libjpeg_9a-1_brcm2708.ipk
+Size: 94404
+MD5Sum: ca50ef8ccad17bef8c902b706c09f604
+SHA256sum: 14d1ff489dbb63d9957c906d5978e5aee80b73b7e1037e0a31787357532185b7
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libminiupnpc
+Version: 1.9-1
+Depends: libc
+Source: feeds/packages/net/miniupnpc
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 15786
+Filename: libminiupnpc_1.9-1_brcm2708.ipk
+Size: 16461
+MD5Sum: eafd79a5213aab7f41a33841c4ae4b90
+SHA256sum: 2401131e8a78678c295816cd8f3e3508392009e37b0957c1d204ef9bfca536dd
+Description:  Lightweight UPnP library
+
+Package: libnatpmp
+Version: 20140401-1
+Depends: libc
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+Section: libs
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: brcm2708
+Installed-Size: 3196
+Filename: libnatpmp_20140401-1_brcm2708.ipk
+Size: 4101
+MD5Sum: 5dcc57251e7434ad3d638512a2fa0f03
+SHA256sum: f7bdbc1a267b145baa164efeb971b9ea7fcd1191b3af75dce2d30637fe82297a
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libpng
+Version: 1.2.51-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 113509
+Filename: libpng_1.2.51-1_brcm2708.ipk
+Size: 114013
+MD5Sum: 52326e2fe067530ca04261bd2d56f143
+SHA256sum: df9e7fbff9024549fe87f8c454fca213036c545b8365dae6270f9249596b58f3
+Description:  A PNG format files handling library
+
+Package: libxml2
+Version: 2.9.2-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: brcm2708
+Installed-Size: 461028
+Filename: libxml2_2.9.2-1_brcm2708.ipk
+Size: 459333
+MD5Sum: 5b601a11081a36f2d0c4f84cb7417be1
+SHA256sum: 887a7158bf6d5ef60f2f5ddde645327c9729a932e87d2a06404da2e8e4fb3149
+Description:  A library for manipulating XML and HTML resources.
+
+Package: miniupnpc
+Version: 1.9-1
+Depends: libc, libminiupnpc
+Source: feeds/packages/net/miniupnpc
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 6657
+Filename: miniupnpc_1.9-1_brcm2708.ipk
+Size: 7405
+MD5Sum: f50388573bf122ce8a67ff3109879d1a
+SHA256sum: 21b430003a5ce5d889789825cb3f6db84d0ec4be79a1617198d161fb4b29ac7f
+Description:  Lightweight UPnP client
+
+Package: nano
+Version: 2.3.6-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: brcm2708
+Installed-Size: 27577
+Filename: nano_2.3.6-1_brcm2708.ipk
+Size: 28265
+MD5Sum: 5cbe8207ff89203f65da487ae4c0214e
+SHA256sum: 41689d81a77170cb65413fbc5b424264428ead792be55dddb1f609f4e8af5cf3
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: natpmpc
+Version: 20140401-1
+Depends: libc, libnatpmp
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+Section: net
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: brcm2708
+Installed-Size: 3142
+Filename: natpmpc_20140401-1_brcm2708.ipk
+Size: 4049
+MD5Sum: 1c050953ac35d0d980d937bd03e2baba
+SHA256sum: 5f9484e082f9e48e0fadba51475f25991f6f99a2d13344baf091cbcba6c254f9
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
+
+Package: netatalk
+Version: 2.2.4-1
+Depends: libc, attr, libdb47, libgcrypt, libopenssl, librpc
+Source: feeds/packages/net/netatalk
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 350844
+Filename: netatalk_2.2.4-1_brcm2708.ipk
+Size: 350181
+MD5Sum: ee2463bf47b849297cb761b50cdf7ade
+SHA256sum: a401b469e4c8c86084ff403e98df5ce2ad41d2c09a4c9eae8820d6d554f00016
+Description:  netatalk
+
+Package: patch
+Version: 2.7.1-1
+Depends: libc
+Source: feeds/packages/devel/patch
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: devel
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: brcm2708
+Installed-Size: 62201
+Filename: patch_2.7.1-1_brcm2708.ipk
+Size: 63032
+MD5Sum: 43967402fa7a5ac7cf1d596763d89d23
+SHA256sum: 6e30ea5c725cfdb5d13e30a8d1914558d246045ffbb68b933aa5db3f62f935ad
+Description:  The Patch package contains a program for modifying or creating files
+ by applying a "patch" file typically created by the diff program.
+
+Package: perl-compress-bzip2
+Version: 2.19-1
+Depends: libc, perl, libbz2
+Source: feeds/packages/lang/perl-compress-bzip2
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 24771
+Filename: perl-compress-bzip2_2.19-1_brcm2708.ipk
+Size: 25514
+MD5Sum: 9f846b6873212f7fbd07c2b0e427555d
+SHA256sum: 9fa9367f0a30eb148d9187b28b765f7aa71b34d6b20187d8e00a352dc2d8b638
+Description:  Perl interface to bzip2 compression library
+
+Package: perl-lockfile-simple
+Version: 0.208-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-lockfile-simple
+License: GPL-2.0+ Artistic-1.0-Perl
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 4607
+Filename: perl-lockfile-simple_0.208-1_brcm2708.ipk
+Size: 5330
+MD5Sum: 11b03d30e4fd3f657b44ffd9cf2a7f9a
+SHA256sum: 2ec7f50fb4660a442bfe0e1935363e172eee84255debb7facbf0f6e244c485df
+Description:  Simple advisory file locking
+
+Package: perl
+Version: 5.20.1-1
+Depends: libc
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 746881
+Filename: perl_5.20.1-1_brcm2708.ipk
+Size: 743735
+MD5Sum: 25d3a47fbb0aa674b70802d6af3fd393
+SHA256sum: c9ac4afa4d40b2256c8a369990b08a789a61a0772f46ae09ab1eaffe041f66ad
+Description:  Perl is a stable, cross platform programming language.
+ It is used for mission critical projects in the public and private sectors
+ and is widely used to program web applications of all needs.
+
+Package: perlbase-autoloader
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 2256
+Filename: perlbase-autoloader_5.20.1-1_brcm2708.ipk
+Size: 3037
+MD5Sum: f57a306b9c84386bda68a6a9dce71512
+SHA256sum: 4c811d3395c43ee676383a8f2ad9bec616bc5275e0cf25cbf2b661c181bb578f
+Description:  AutoLoader perl module
+
+Package: perlbase-base
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 2275
+Filename: perlbase-base_5.20.1-1_brcm2708.ipk
+Size: 3051
+MD5Sum: 6819c09dc55e01e8bb9e29cbdfe50dac
+SHA256sum: 663198dddd40e317fa5b19216447320130bed5d7684216ede3208947cde0ab2c
+Description:  base perl module
+
+Package: perlbase-bytes
+Version: 5.20.1-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 627
+Filename: perlbase-bytes_5.20.1-1_brcm2708.ipk
+Size: 1384
+MD5Sum: 4d4a199bf355f4064bc0911050755e03
+SHA256sum: f6446b6b45f457024247d4f5b661d2fd8cabaa60e1c41eed18cf0255e658f80a
+Description:  bytes perl module
+
+Package: perlbase-class
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 2263
+Filename: perlbase-class_5.20.1-1_brcm2708.ipk
+Size: 3020
+MD5Sum: fcf1d367764cacc2e341e5883e76ed0c
+SHA256sum: 3203226702ace8dbdbca583924ea6b6b8741486f1daf6bf85528a599aacfd27e
+Description:  Class perl module
+
+Package: perlbase-config
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 15767
+Filename: perlbase-config_5.20.1-1_brcm2708.ipk
+Size: 16448
+MD5Sum: 195ca46dcd8b6e4ae6a134be23bd3ed5
+SHA256sum: 0f1cf2f69302c936d384a6ece8362f9cd5f6d1e5c2b089bf200b843f1d6d11fe
+Description:  Config perl module
+
+Package: perlbase-cwd
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 11271
+Filename: perlbase-cwd_5.20.1-1_brcm2708.ipk
+Size: 12015
+MD5Sum: 8a362c497a5b42005b93d8fbd9be2400
+SHA256sum: 5a5a23c41da358c441e1322d17714b8fec8ae0b9ad75fb9c853fa7809ff4c30f
+Description:  Cwd perl module
+
+Package: perlbase-data
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 21449
+Filename: perlbase-data_5.20.1-1_brcm2708.ipk
+Size: 22217
+MD5Sum: 34223e36579f88a0f8bc061cb61d7519
+SHA256sum: 8469064519f95604ccacd18e2fc41496b0ccce9de0d7a7f57b638cf874331aac
+Description:  Data perl module
+
+Package: perlbase-dynaloader
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-config
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 3769
+Filename: perlbase-dynaloader_5.20.1-1_brcm2708.ipk
+Size: 4518
+MD5Sum: 4e389c966be4b12603cb1e8c00779d12
+SHA256sum: bdf5f78f71f3350f116fa8f36238bcf20d18d2e44ddfce5301e4670c0803ddda
+Description:  DynaLoader perl module
+
+Package: perlbase-errno
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-config, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 2449
+Filename: perlbase-errno_5.20.1-1_brcm2708.ipk
+Size: 3236
+MD5Sum: c1fa26a624ec07177e356f6c165176ac
+SHA256sum: c1280010b77eac653d911bd7419c30427db41bfd90dee7f11ff049941bff0b6b
+Description:  Errno perl module
+
+Package: perlbase-essential
+Version: 5.20.1-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 18436
+Filename: perlbase-essential_5.20.1-1_brcm2708.ipk
+Size: 19214
+MD5Sum: bd777c68bd20249c77a25d1b7e1d38ec
+SHA256sum: cc882eb30d3aa7b2ece875d0e5dc8e4ead112259373b05931766a8c5a3b501f0
+Description:  essential perl module
+
+Package: perlbase-fcntl
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 6050
+Filename: perlbase-fcntl_5.20.1-1_brcm2708.ipk
+Size: 6804
+MD5Sum: d020abc144ae2cb1eb67c192778fff2b
+SHA256sum: 7af4f99b03f7067e1d23de9eeb314e78307f2630f409f7b403960d724745f1f6
+Description:  Fcntl perl module
+
+Package: perlbase-file
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-cwd, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-locale, perlbase-params, perlbase-scalar
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 71050
+Filename: perlbase-file_5.20.1-1_brcm2708.ipk
+Size: 71922
+MD5Sum: 565facea9ac2202e336cf08284703af1
+SHA256sum: b0e4ee4810430dcf45295df3b62889de819688e882ef3447f9dc75b4653e9e2d
+Description:  File perl module
+
+Package: perlbase-filehandle
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 1004
+Filename: perlbase-filehandle_5.20.1-1_brcm2708.ipk
+Size: 1773
+MD5Sum: b8a34a4d3bd32f3096ad03bd7a4fa6a3
+SHA256sum: 3fbf4d681466f32a0021f5883e4f23ac05d0fd82fbc2b8026280579eadd980f7
+Description:  FileHandle perl module
+
+Package: perlbase-getopt
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 12696
+Filename: perlbase-getopt_5.20.1-1_brcm2708.ipk
+Size: 13480
+MD5Sum: c1009dddf105fce7b9952fb8216632ae
+SHA256sum: 51b04f29c3c65de9a14d84aff4cd10c1c5554434dca7349cb0dc006d357f609d
+Description:  Getopt perl module
+
+Package: perlbase-i18n
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-posix
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 20346
+Filename: perlbase-i18n_5.20.1-1_brcm2708.ipk
+Size: 21104
+MD5Sum: 9f9970539e1bd7b6e72bba7e55ff7454
+SHA256sum: 99dc05dfae003a093313eb3e4daae981e5af28069e4796320d36e6cca6649d4b
+Description:  I18N perl module
+
+Package: perlbase-integer
+Version: 5.20.1-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 316
+Filename: perlbase-integer_5.20.1-1_brcm2708.ipk
+Size: 1075
+MD5Sum: fe3e468f595084eccc7311d7d0d1ac6b
+SHA256sum: 118df5e836a11f4dbe1af2322a7eb1ef5e187c75ecce1c1d8657772bb8cd66d1
+Description:  integer perl module
+
+Package: perlbase-io
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-base, perlbase-bytes, perlbase-config, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-list, perlbase-posix, perlbase-scalar, perlbase-selectsaver, perlbase-socket, perlbase-symbol, perlbase-tie, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 67860
+Filename: perlbase-io_5.20.1-1_brcm2708.ipk
+Size: 68831
+MD5Sum: d4df5103238086e15a6c9eb1a3d69eda
+SHA256sum: 42835a73109673e96b0411e19680a002f1b6b9573dc3b77c692378b18228b933
+Description:  IO perl module
+
+Package: perlbase-list
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 16928
+Filename: perlbase-list_5.20.1-1_brcm2708.ipk
+Size: 17686
+MD5Sum: 24e883869f37099d1a2589366f2d5114
+SHA256sum: 3cbb3a1cea7e142c8018fe372ad20da93a29a2538873cfd7c1f413d9f2bd1717
+Description:  List perl module
+
+Package: perlbase-locale
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-i18n, perlbase-integer, perlbase-utf8
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 313920
+Filename: perlbase-locale_5.20.1-1_brcm2708.ipk
+Size: 288833
+MD5Sum: 0fc073bfd132c635823eae09d39f2a82
+SHA256sum: 45096dd6f7acd5599fe47262fc47437e31fd0d6eef2caf9bb3fca5e5f5b66e22
+Description:  Locale perl module
+
+Package: perlbase-params
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-locale
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 3286
+Filename: perlbase-params_5.20.1-1_brcm2708.ipk
+Size: 4044
+MD5Sum: 3131154bfb61cb865f40482802f2cd6a
+SHA256sum: b00b5c4684032004fee74d9cd38d85770920ac67ea9d64d8d078bd8ec4bdd1e4
+Description:  Params perl module
+
+Package: perlbase-posix
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-fcntl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 31826
+Filename: perlbase-posix_5.20.1-1_brcm2708.ipk
+Size: 32395
+MD5Sum: 30f1ffd3a85142f79aa9ccd0b3768794
+SHA256sum: d98c192f2194ab3760f5331642303d812ab8ef6112a7a6cd894e8b83b7387060
+Description:  POSIX perl module
+
+Package: perlbase-re
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 180901
+Filename: perlbase-re_5.20.1-1_brcm2708.ipk
+Size: 181453
+MD5Sum: 1854cca331d2502afad5cd162ba0390b
+SHA256sum: d3a1aac89f3d4c048dd9a989d3384a0d127cff9860f249be1effbbe9289f9522
+Description:  re perl module
+
+Package: perlbase-scalar
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 755
+Filename: perlbase-scalar_5.20.1-1_brcm2708.ipk
+Size: 1522
+MD5Sum: 6fd2004b556c113facf4448cb1f27fa4
+SHA256sum: e18f428169cc2f83d3ebf206cc8b548e845ec7021d42e11eab3a55747361f379
+Description:  Scalar perl module
+
+Package: perlbase-selectsaver
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-symbol
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 441
+Filename: perlbase-selectsaver_5.20.1-1_brcm2708.ipk
+Size: 1215
+MD5Sum: cf366f57fd4e10985dd020add304a3b3
+SHA256sum: 0cf88921a0881630a21d80bf86f41d7ac9e285727e00e47868f225d11066b4ee
+Description:  SelectSaver perl module
+
+Package: perlbase-selfloader
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-io
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 2291
+Filename: perlbase-selfloader_5.20.1-1_brcm2708.ipk
+Size: 3085
+MD5Sum: 7f1750dd28854a7577120bc007f1e166
+SHA256sum: 6a2dac96a4dd442d90f5e4839cf436d687e379cddbe16bed2f8ad748e6d05305
+Description:  SelfLoader perl module
+
+Package: perlbase-socket
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 16628
+Filename: perlbase-socket_5.20.1-1_brcm2708.ipk
+Size: 17346
+MD5Sum: d896c4ce27dc9014ed6d55851475f8b1
+SHA256sum: 323e6bf07f8e714f9a245f37ce7814d444e16530da9415f2f3e46f776ddab7df
+Description:  Socket perl module
+
+Package: perlbase-symbol
+Version: 5.20.1-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 1120
+Filename: perlbase-symbol_5.20.1-1_brcm2708.ipk
+Size: 1878
+MD5Sum: 8e23289318191550fe17139637b437d1
+SHA256sum: 0d02d92f0bd99738095e2dbc745491d2255ac0e488b22f3827bd8c3e3cf8e960
+Description:  Symbol perl module
+
+Package: perlbase-text
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-selfloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 10766
+Filename: perlbase-text_5.20.1-1_brcm2708.ipk
+Size: 11536
+MD5Sum: 78cef527ace50e6b1d4c3dc5b9e47340
+SHA256sum: 73ed54508a9611c8d92d1b7931d1ae721a5d495c98ee7f31ee5ce828df0495b7
+Description:  Text perl module
+
+Package: perlbase-tie
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-posix
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 22065
+Filename: perlbase-tie_5.20.1-1_brcm2708.ipk
+Size: 22822
+MD5Sum: ebafe7ee6568d2c87998f7408051feb6
+SHA256sum: caf5f6759b6a023fa6752e67e588d1c372141f6df0e8c9bd4ab50bb560c2f966
+Description:  Tie perl module
+
+Package: perlbase-utf8
+Version: 5.20.1-1
+Depends: libc, perl, perlbase-essential, perlbase-re
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 9160
+Filename: perlbase-utf8_5.20.1-1_brcm2708.ipk
+Size: 9958
+MD5Sum: 1e996c556839c21a570769503fb3267d
+SHA256sum: c8b4278ff15e7c43715005c29b37dd8040d4306ce449899e4626967cd7be3bc7
+Description:  utf8 perl module
+
+Package: perlbase-xsloader
+Version: 5.20.1-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 1319
+Filename: perlbase-xsloader_5.20.1-1_brcm2708.ipk
+Size: 2092
+MD5Sum: 24630c380744c75e744ba7c7c8948111
+SHA256sum: 0dd9b66d017be3f9546f9f6b3efdc15f13b1b9e2e5e39da08c55c06931919253
+Description:  XSLoader perl module
+

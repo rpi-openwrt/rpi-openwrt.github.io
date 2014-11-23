@@ -1,0 +1,98 @@
+Package: luci-app-firewall
+Version: git-14.321.51707-f81be49-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 64169
+Filename: luci-app-firewall_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 65003
+MD5Sum: e4b9919b8775071c22f7f350748bc7e7
+SHA256sum: c5312691644682ec85fcd8e70125d1fa9b08c5031d0f37070577233ec8d62454
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: git-14.321.51707-f81be49-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 140566
+Filename: luci-base_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 141476
+MD5Sum: bfe2258a1da15a1e678fe022406431eb
+SHA256sum: b3a10b16d358daa711bd8f2ca161f9db1c386dce0e560dffb1e01690aaead2ae
+Description:  LuCI core libraries
+
+Package: luci-lib-nixio
+Version: git-14.321.51707-f81be49-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 28680
+Filename: luci-lib-nixio_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 29191
+MD5Sum: 2cd651999cac878774e7dfe21061a1e9
+SHA256sum: 55864340c5ade6716d033a83cf9541f61e09583dcc9eba58f882e2b41e1273a4
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-14.321.51707-f81be49-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 68536
+Filename: luci-mod-admin-full_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 69437
+MD5Sum: 0639264b96be89122072e1e2ac1e8e08
+SHA256sum: 6564cd46227a3d71483224b04882a536882d64cc9329341db8db40aa568181b3
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ppp
+Version: git-14.321.51707-f81be49-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 2990
+Filename: luci-proto-ppp_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 3744
+MD5Sum: 6c11f276bf8ff7e87e636b90bbaa6365
+SHA256sum: c8df84c78576623450023d80cf05429f08fe9f04cd16c098dc2504b35443b10e
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-14.321.51707-f81be49-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 12799
+Filename: luci-theme-bootstrap_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 13518
+MD5Sum: 8d081e699bc8474c542719f6d5c4994d
+SHA256sum: bea75db2826bcb8ca05ca41ec699737606b92d165426bbb1cfac58691acc403d
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-14.321.51707-f81be49-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 104
+Filename: luci_git-14.321.51707-f81be49-1_brcm2708.ipk
+Size: 930
+MD5Sum: 66f1746c18fd6ea84354117382ea4827
+SHA256sum: 6359bc31e4eeffdad11208ac4708a91b34c2a388a14622cf0bece8d0e0a8a6c3
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+
