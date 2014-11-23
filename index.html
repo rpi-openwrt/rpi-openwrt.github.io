@@ -14,7 +14,8 @@ OpenWrt trunk base revision: <a href="https://dev.openwrt.org/log/?rev=43340">r4
 <p><a href="bin">[bin]</a></p>
 
 <h2><u>Instructions</u></h2>
-<p>Set your /etc/opkg.conf accordingly:</p>
+<p>
+Set your /etc/opkg.conf accordingly:<br/>
 <pre style="background-color: #000; border: 1px dashed #bbb; color: #eee; width: 913px; padding: 6px;">
 dest root /
 dest ram /tmp
@@ -36,7 +37,11 @@ src/gz chaos_calmer_packages http://downloads.openwrt.org/snapshots/trunk/brcm27
 #src/gz chaos_calmer_telephony http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/telephony
 #src/gz chaos_calmer_management http://downloads.openwrt.org/snapshots/trunk/brcm2708/packages/management
 </pre>
-<p>Some packages don't work very well without using image from this site, as ext4 image has been generated in a different way in stock OpenWrt RPI image. For example it doesn't allow resizing.<p>
+</p>
+<p>
+Some packages don't work very well without using image from this site, as ext4 image has been generated in a different way in stock OpenWrt RPI image. For example it doesn't allow resizing.
+Recommended way, would be to use image from this site. Another issues might also occur in some cases.
+<p>
 <h2><u>Changes in rpi-openwrt's image</u></h2>
 <ul>
 <li><a href="https://github.com/rpi-openwrt/patches">Patches</a> against base system</li>
